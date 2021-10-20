@@ -1,0 +1,31 @@
+.uuu{
+    width: 800px;
+    border: 5px solid darkgray;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.header{
+    height: 100px;
+    background-color: #040440;
+}
+.nav{
+    height: 75px;
+    background-color: #4444c9;
+}
+.main{
+    height: 300px;
+    display: flex;
+}
+.main1{
+    background: blue;
+    width: 70%;
+}
+.main2{
+    background: #3f3f9a;
+    width: 30%;
+}
+.footer{
+    height: 75px;
+    background: #111134;
+}
