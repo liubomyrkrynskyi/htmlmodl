@@ -1,0 +1,223 @@
+.soc-icone{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: aqua;
+    padding: 0 25px;
+    column-gap: 5px;
+}
+.sic-icone__link{
+    width: 25px;
+    height: 5px;
+    background-color: black;
+
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.header_top{
+    background-color: lightgray;
+    padding: 10px 0 20px;
+}
+.header_top_gr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_top_logo{
+    width: 100px;
+    height: 40px;
+    border-radius: 20%;
+    background-color: blue;
+}
+.nav_item{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav_item a {
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .5s ;
+    color: blue;
+}
+.nav_item a:hover {
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    padding: 100px 0;
+}
+.title_text{
+    width: 80%;
+    line-height: 20px;
+    text-align: center;
+}
+.header{
+    background-color: aqua;
+}
+.title button{
+    margin-top: 25px;
+    background-color: blue;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.content1{
+    text-align: center;
+}
+.content{
+    padding: 20px;
+    background-color: lightgray;
+}
+.content_grid {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.content_list {
+    display: flex;
+    column-gap: 30px;
+}
+.content_item{
+    flex-grow: 1;
+}
+.content_item_img{
+    height: 200px;
+    background-color: #04042a;
+    border-radius: 10px;
+}
+.content_item p{
+    text-align: center;
+    margin-top: 15px;
+}
+.about_us{
+    background-color: darkblue;
+    padding: 40px 0;
+}
+.about_grid {
+    display: flex;
+    justify-content: space-between;
+}
+.about_us1{
+    border-radius: 10px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 10px;
+    color: darkred;
+}
+.about_photo >div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.block3{
+    background-color: lightgray;
+    padding: 40px;
+}
+.block_grid{
+    display: flex;
+    column-gap: 90px;
+    padding: 30px;
+}
+.blockus {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+    color: darkred;
+    border: 2px solid black;
+    padding: 30px;
+}
+.blockus_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    background-color: darkblue;
+    margin-top: 50px;
+
+}
+.block_grid2{
+    display: flex;
+    column-gap: 90px;
+    padding: 30px;
+}
+.end{
+    background-color: lightgray;
+}
+.end1{
+    background-color: #17172c;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    padding: 10px;
+}
+.end2{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #17172c;
+    padding: 10px;
+}
+.eee{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.end11{
+    align-items: center;
+}
+.end1 button {
+    margin-top: 25px;
+    background-color: blue;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.end2 button {
+    margin-top: 25px;
+    background-color: blue;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.line{
+    background-color: #17172c;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}
+.line1{
+    background-color: lightgray;
+    border-radius: 25%;
+    padding: 15px;
+
+}
